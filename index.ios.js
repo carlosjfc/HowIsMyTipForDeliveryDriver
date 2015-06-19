@@ -91,11 +91,11 @@ var HowIsMyTipForDeliveryDriver = React.createClass ({
       debugOverlay={false}
       style={styles.appContainer}
       sceneStyle={styles.appContainer}
-      initialRoute={
-        {name: 'My First Scene',
-        title: 'My First Scene', 
-        index: 0}
-      }
+      initialRoute={{
+        name: 'Welcome to your tip application',
+        title: 'Welcome to your tip application', 
+        index: 0
+      }}
       configureScene={(route) => (
           Navigator.SceneConfigs.FloatFromLeft
           )
